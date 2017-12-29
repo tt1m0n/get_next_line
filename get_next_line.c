@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include <stdio.h>
 
 t_lst		*search_and_append(t_lst **head, int fd)
 {
