@@ -126,7 +126,7 @@ int main (int argc, char **argv)
 	if (argc == 2)
 	{
 		if (fd == -1)
-			printf ("Oooops: this wrong name of file\n");
+			ft_putstr("Oooops: this wrong name of file\n");
 		while ((rez = get_next_line(fd, &line) > 0))
 		{	
 			ft_putstr(line);
@@ -136,6 +136,6 @@ int main (int argc, char **argv)
 		close(fd);
 	}
 	else 
-		printf ("Usage: ./gnl filename\n");
+		ft_putstr("Usage: ./gnl filename\n");
 	return (0);
 }

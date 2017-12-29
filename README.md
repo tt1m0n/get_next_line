@@ -1,9 +1,9 @@
 
-To run program with my test of  main.c:
+To run program with my test varian of main.c:
 1. Go to folder libft and write [make] in command line to compile libft.a
 2. Go back in root directory and write [gcc get_next_line.c libft/libft.a]
 3. test program. Usage: ./a.out filename
-4. You can rewrite main.c to use function for example it will possible to read from 2, 5 or even 1000 files-descriptor
+4. You can rewrite main.c to use my function for example to read from 2, 5 or even 1000 files-descriptor
 
 --Assignment--
 
